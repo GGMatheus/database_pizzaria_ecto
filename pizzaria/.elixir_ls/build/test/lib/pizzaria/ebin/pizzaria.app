@@ -1,0 +1,12 @@
+{application,pizzaria,
+             [{applications,[kernel,stdlib,elixir,logger,postgrex,ecto_sql]},
+              {description,"pizzaria"},
+              {modules,['Elixir.Pizzaria','Elixir.Pizzaria.Application',
+                        'Elixir.Pizzaria.Cliente',
+                        'Elixir.Pizzaria.Fornecedor',
+                        'Elixir.Pizzaria.Funcionario',
+                        'Elixir.Pizzaria.Ingrediente','Elixir.Pizzaria.Pizza',
+                        'Elixir.Pizzaria.Repo','Elixir.Pizzaria.Venda']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.Pizzaria.Application',[]}}]}.
